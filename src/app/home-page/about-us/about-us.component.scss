@@ -1,0 +1,24 @@
+@import '../../../scss//variables';
+
+.aboutUs {
+    background-image: url('../../../assets/products.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__text {
+        font-size: 18px;
+        color: rgb(119, 119, 119);
+        line-height: 1.222;
+        text-align: center;
+        z-index: 193;
+    }
+}
+
+.Popular_Products {
+    font-size: 30px;
+    color: $color-primary;
+    font-weight: bold;
+    line-height: 0.733;
+    text-align: center;
+    z-index: 195;
+  }

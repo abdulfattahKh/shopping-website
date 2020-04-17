@@ -1,0 +1,58 @@
+
+@import '../../../scss/variables';
+.svg1,.svg2
+{
+    border-radius: 10px;
+    left:0;
+    top:0;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+.HF
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.LF
+{
+    font-size: 12px !important;
+    color: white;
+}
+
+#footer
+{
+    background-color: $color-primary;
+    // left: 0;
+    // bottom: 0;
+    // width: 100%;
+    // position: fixed;
+}
+.svg3
+{
+    left:0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+#footer .form-control
+{
+    background-color: #2d2d2d !important;
+    color: #838383 !important;
+    border: #545454 1px solid;
+}
+
+#footer a:hover{
+    transition-duration: 0.3s;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-danger {
+    background-color: $color-secondary;
+}

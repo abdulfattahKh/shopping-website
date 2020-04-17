@@ -1,0 +1,111 @@
+@import '../../../scss/variables';
+
+.product-details {
+
+
+    background-color: #f3f4f5;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    margin-top: $nav-bar-height;
+    
+
+    .color {
+        .colors {
+            &__color {
+                border-radius: 10%;
+                color: white;
+                width: 50px;
+                padding: 10px;
+                height: 30px;
+                position: relative;
+                cursor: pointer;
+                &--1 {
+                    background-color: #227356;
+                    // &::after {
+                    //     content: '';
+                    //     width: 80%;
+                    //     height: 80%;
+                    //     border-radius: 10%;
+                    //     background-color: #227356;
+                    //     left: 50%;
+                    //     top: 50%;
+                    //     transform: translate(-50%,-50%);
+                    //     position: absolute;
+                    // }
+                }
+                &--2 {
+                    background-color: #663336;
+                }
+                &--3 {
+                    background-color: yellowgreen;
+                }
+            }
+        }
+    }
+}
+
+
+.list-group {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.first {
+    display: list-item;
+}
+.list-group-item {
+
+    list-style-position: inside;
+    list-style-type: disc;
+    padding-left: 0px;
+    background: transparent;
+
+    &--1 {
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+.drop {
+    &__name {
+        padding: 0;
+        margin: 0;
+    }
+    &__cursor {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+.moreInfo {
+    // background-image: url('../../../assets/more.png');
+    // background-size: cover;
+    // height: 400px;
+    
+    background-image: url('../../../assets/products.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__photo {
+        img {
+            width: 150px;
+            height: 100px ;
+        }
+    }
+}
+
+
+.more-features {
+    background-color: #213943;
+    .text {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+}
+  

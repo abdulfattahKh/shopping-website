@@ -1,0 +1,56 @@
+.card {
+    
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+
+    &__header {
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+    
+        &__title {
+            font-weight: bold;
+        }
+        &__rate {
+    
+        }
+    }
+
+    &__body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        &__message {
+            font-size: 14px;
+            font-weight: normal;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        &__date {
+
+        }
+    }
+}
+
+.profile {
+        
+    display: flex;
+    align-items: center;
+    &__img {
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        background-color: black;
+        margin-right: 1rem;
+    }
+
+    &__name {
+        font-size: 1rem;
+    }
+}

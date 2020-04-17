@@ -1,0 +1,314 @@
+
+@import '../../../scss/variables';
+body
+{
+    font-family: "Montserrat";
+}
+
+
+
+.singup {
+    border-radius: 10px;
+    background-color: rgb(104, 175, 22);
+    width: 130px;
+    height: 40px;
+  }
+
+  .signupButton {
+    background-color: $color-primary;
+    color:white;
+  }
+  
+  .navbar .nav-link
+  {
+      margin-right: 30px;
+      font-size: 14px;
+  }
+
+
+  .navbar {
+      &__logo {
+          font-family: Monotype Corsiva, sans-serif;
+          display: inline;
+          margin-left: 1rem;
+      }
+  }
+
+  .Shape_3 {
+      border-right:1px solid rgb(152, 152, 152);
+      opacity: 0.8;
+  }
+
+  .margin-section
+  {
+      margin-top: 80px;
+  }
+
+
+  .Rectangle_10 {
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51);
+    color: white !important;
+  }
+  
+
+  .Text {
+    font-size: 28px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    -moz-transform: matrix( 0.99995051709634,0,0,0.99999900751627,0,0);
+    -webkit-transform: matrix( 0.99995051709634,0,0,0.99999900751627,0,0);
+    -ms-transform: matrix( 0.99995051709634,0,0,0.99999900751627,0,0);
+
+  }
+  
+ .btn-success
+{
+  border-radius: 10px;
+  background-color: rgb(104, 175, 22);
+}
+
+.m-res
+{
+    margin-bottom: 10px;
+}
+#header .btn-panftahi
+{
+  border-radius: 10px;
+  background-color: rgb(199, 16, 94);
+}
+  @media (min-width: 768px)
+  {
+  .navbar-expand-md .navbar-nav .nav-link 
+  {
+      padding-left: 0;
+  }
+  }
+
+
+
+
+  .Action_Center {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+
+
+
+
+  .paragraph {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1.911;
+    text-align: center;
+    -moz-transform: matrix( 1,0,0,0.89705882352941,0,0);
+    -webkit-transform: matrix( 1,0,0,0.89705882352941,0,0);
+    -ms-transform: matrix( 1,0,0,0.89705882352941,0,0);
+  }
+  
+
+  .Rectangle_3 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(139, 139, 139);
+  background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(227,227,227) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(227,227,227) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(227,227,227) 100%);
+}
+
+
+.base {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .Under-photo {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(139, 139, 139);
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .btn-primary
+  {
+    background-color: rgb(22, 123, 165);
+  }
+  .btn-dontation {
+    width: 291px;
+    border-radius: 10px;
+  }
+  .feed-check
+  {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+
+  .photoBorder {
+    border-radius: 7px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+
+  .AAA .input-group-text
+  {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+
+  .postedName {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  .postedName1
+  {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: #333;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+
+
+
+  .under-post {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+
+  .mr-10
+  {
+      margin-right: 10px;
+  }
+
+  .mb-10
+  {
+      margin-bottom: 10px;
+  }
+  
+  .mt-10
+  {
+      margin-top: 10px;;
+  }
+
+  .pt-7
+  {
+      padding-top: 20px !important;
+  }
+
+  .py-7
+  {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .my-7
+  {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .mb-7
+  {
+      margin-bottom: 20px;
+  }
+
+  .my-6
+  {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .mt-6
+  {
+      margin-top: 10px !important;
+  }
+
+  .mb-6
+  {
+      margin-bottom: 10px !important;
+  }
+  .mr-6
+  {
+      margin-right: 8px;
+  }
+
+  .mll-5
+  {
+      margin-left: 5px; 
+  }
+  
+  .mrr-5
+  {
+      margin-right: 5px;
+  }
+
+
+
+  .write_a_comment {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(68, 68, 68);
+    line-height: 1.2;
+  }
+  
+
+
+
+  .writing {
+    font-size: 16px;
+
+    font-family: "Montserrat";
+    opacity: 0.9;
+    color: rgb(34, 34, 34);
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+
+  #feed .card-footer
+  {
+      background-color: rgba(0, 0, 0, 0.02);
+  }
+
+
+  .hvr-underline-from-left:before
+  {
+      background: rgb(104, 175, 22);
+  }
+
+
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  
+
+
+  a:hover
+  {
+      transition-duration: 0.5s;
+      opacity: 0.8;
+  }

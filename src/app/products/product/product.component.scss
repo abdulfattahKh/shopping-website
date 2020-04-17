@@ -1,0 +1,148 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Prompt', sans-serif;
+}
+
+.bg-primary
+{
+    background-color: rgb(16, 62, 210) !important; 
+}
+
+.navbar-brand .brand
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    position: abs;
+    top: 27.5px !important;
+}
+
+.navbar-brand .u_brand
+{
+    margin:0;
+    font-size: 17px;
+    color: rgb(255, 222, 0);
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.nav-item:hover
+{
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+.navbar
+{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.real-navbar .nav-link:hover
+{
+
+    color: #e64a33 !important ;
+}
+.real-navbar .nav-link
+{
+    font-size: 14px;
+    font-family: "Prompt";
+    color: rgb(162, 162, 162);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-right: 56px;
+}
+
+#products h1
+{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    font-style: Thin;
+}
+
+#products .form-control
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(211, 211, 211);
+    background-color: rgb(255, 255, 255);
+}
+
+.form-inline .input-group
+{
+    width: 500px;
+}
+@media(max-width:994px)
+{
+    .form-inline .input-group
+    {
+        width: auto;
+    }
+    .real-navbar .nav-link
+    {
+    margin-right: 24px;
+    }
+
+    .mb-resp
+    {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media(max-width:573px)
+{
+    .form-inline
+    {
+        display: inline;
+    }
+}
+
+.Pricing_Table_Mockup {
+    font-size: 16px;
+    font-family: "Prompt";
+    color: rgb(36, 44, 58);
+    line-height: 1.2;
+  }
+  
+  ._12_December_2016 {
+    font-size: 13px;
+    font-family: "Prompt";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+  }
+  
+  .input-group-text
+  {
+      color: white;
+      background-color: #e64a33;
+  }
+
+  .base {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+  /*Hover*/
+
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+
+  .card:hover
+  {
+      cursor: pointer;
+  }

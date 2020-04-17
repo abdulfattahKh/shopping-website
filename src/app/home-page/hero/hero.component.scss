@@ -1,0 +1,22 @@
+@import '../../../scss/variables';
+
+.hero {
+    transition-duration: 1s;
+    margin-top:  $nav-bar-height;
+    background-image: url('../../../assets/hero.png');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__text {
+        font-size: 50px;
+        font-family: "PT Sans";
+        color: rgba(51, 51, 51, 0.769);
+        text-transform: uppercase;
+        text-align: center;
+        z-index: 128;
+        margin-bottom: 40px;
+    }
+} 

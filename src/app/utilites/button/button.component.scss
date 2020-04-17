@@ -1,0 +1,24 @@
+@import '../../../scss/variables';
+.base {
+    border-radius: 10px;
+    background-color: $color-primary;
+    position: relative;
+    width: 321px;
+    height: 48px;
+    z-index: 130;
+    color: #fff;
+  }
+
+  .base1 {
+    border-radius: 10px;
+    background-color: $color-primary;
+    position: relative;
+    width: 161px;
+    height: 51px;
+    z-index: 130;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+
+  
+  

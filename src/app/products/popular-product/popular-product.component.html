@@ -1,0 +1,38 @@
+<!-- <div class="popularProduct">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h4 class="Popular_Products mb-3">POPULAR PRODUCTS </h4>
+                <p class="text mb-4">Here you can find the most popular items</p>
+            </div>
+            <div class="col-sm-4 text-center" *ngFor="let product of products;let i = index">
+                <popular-item [index] = 'i' [product] = 'product'></popular-item>
+            </div>
+            <div class="col-sm-4">
+                <app-button text='SEE ALL' size = 'lg'></app-button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="popularProduct">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h4 class="Popular_Products mb-3">{{text}}</h4>
+                <p class="text mb-4">Here you can find the most popular items</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let product of products;let i = index">
+                <popular-item [index] = 'i' [product] = 'product'></popular-item>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-center my-4">
+            <div class="col-sm-4">
+                <app-button text = 'Descover more' size = "lg"></app-button>
+            </div>
+        </div>
+    </div>
+</div>
+
